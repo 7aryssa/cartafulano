@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta do Leitor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .letter {
+            border: 1px solid #000;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: inline-block; 
+            text-align: left; /* Alinha o texto da carta à esquerda */
+        }
+        .sender {
+            margin-top: 20px;
+            font-style: italic;
+            text-align: right; /* Alinha o remetente à direita */
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #bb21bedc;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a700b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="letter">
+        <h1><center>Carta do Leitor</center></h1> <!-- Título centralizado -->
+        <p>São Paulo, 22 de novembro de 2008.</p>
+        <p>Duis porttitor vel eros,</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a tincidunt dolor, nec feugiat enim. Aenean at tellus et purus bibendum interdum. Nulla facilisi. Nullam eleifend feugiat mollis. Ut nisi eros, aliquet eget ullamcorper sed, congue tempus turpis. Nulla eget erat nibh. Cras scelerisque felis nec ligula ornare, quis luctus lacus volutpat. Curabitur tortor lorem, mollis nec lacus aliquet, mattis posuere ante. Suspendisse sit amet malesuada lectus. Quisque lobortis sed ante eget malesuada.
+
+            Curabitur ac condimentum lacus. Phasellus ut porttitor dui, vitae eleifend nisl. Sed vitae neque velit. Phasellus fermentum, dolor vel sodales egestas, erat ante cursus justo, et malesuada massa sapien in elit. Aliquam erat volutpat. Donec porttitor eget magna ut lobortis. Fusce lobortis feugiat massa vel cursus. Sed eu mauris ut enim viverra mattis. Integer sit amet augue sed lorem dapibus vehicula. Ut in varius massa. Phasellus placerat, nisl sit amet volutpat accumsan, nibh purus pretium leo, eget molestie ipsum nisi a ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="sender">Atenciosamente,</p> <!-- Alinhado à direita -->
+        <p class="sender">Fulano da Silva</p> <!-- Alinhado à direita -->
+    </div>
+    <button onclick="window.print()">Imprimir</button>
+</div>
+
+</body>
+</html>
